@@ -1,0 +1,12 @@
+"email_body","label"
+"Hello from John This is a test email to Sarah, im John free iphone for you.",1
+"Re: Hello from John Thanks for the email John, im Sarah free iphone for you.",1
+"Hello from John This is a test email to Alex, im John.",0
+"Re: Hello from John Thanks for the email John, im Alex.",0
+"Hello from Sarah This is a test email to Alex, im Sarah free iphone for you.",1
+"Re: Hello from Sarah Thanks for the email Sarah, Im Alex.",0
+"Hello from John again This is a test email to Sarah, im John again.",0
+"Re: Hello from John again Thanks for the email John, im Sarah again.",0
+"Hello from John again This is a test email to Alex, im John again.",0
+"Re: Hello from John again Thanks for the email John, im Alex again.",0
+"Free Iphone Click the link for free iphone",1

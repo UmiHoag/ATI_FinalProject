@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Email System</title>
+  <link rel="stylesheet" href="/css/styles.css">
+
+<body>
+  <% if (user) { %>
+  <header>
+    <div>Welcome, <%= user.name %> | <a href="/logout">Sign out</a></div>
+  </header>
+  <div id="menu">
+    <li>
+      <li><a href="/compose">Compose</a></li>
+      <li><a href="/inbox">Inbox</a></li>
+      <li><a href="/outbox">Outbox</a></li>
+      <li></li><a href="/spam">Spam</a></li>
+    </ul>
+  </div>
+  <% } %>
+  <div id="content">
+    <%- body %>
+  </div>
+</body>
+
+</html>

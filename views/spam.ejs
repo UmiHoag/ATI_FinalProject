@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spam</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+  <header class="navbar">
+    <nav>
+      <a href="/inbox">Inbox</a>
+      <a href="/outbox">Outbox</a>
+      <a href="/compose">Compose</a>
+      <a href="/spam">Spam</a>
+      <a href="/signout">Sign Out</a>
+    </nav>
+  </header>
+
+  <main class="main-content">
+    <section class="emails">
+      <h2>Spam Emails</h2>
+      <ul class="email-list">
+        <% emails.forEach(function(email) { %>
+        <li class="email-item">
+          <a href="/emails/<%= email.id %>" class="email-link">
+            <span class="email-sender"><strong><%= email.sender_name %></strong></span>
+            - <span class="email-subject"><%= email.subject %></span>
+          </a>
+          <span class="email-date"><%= email.created_at %></span>
+        </li>
+        <% }); %>
+      </ul>
+    </section>
+  </main>
+</body>
+
+</html>

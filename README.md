@@ -22,6 +22,10 @@ Example of your supposed database:
 
 ![emails](https://github.com/user-attachments/assets/7fb11940-0e96-4d5a-a160-ee0671804800)
 
+Now start node index.js to deploy the project on localhost 8000
+
+![node index](https://github.com/user-attachments/assets/d15176ed-e233-4cfd-9300-a6b5cc5feefd)
+
 Here are the interfaces of the deployed project: 
 
 ![signup](https://github.com/user-attachments/assets/0006afbf-8a91-4c02-a4d8-4370b85db1ad)

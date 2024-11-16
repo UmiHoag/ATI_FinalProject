@@ -1,4 +1,4 @@
-# ATI_FinalProject
+![image](https://github.com/user-attachments/assets/1f51a6e9-a5a0-441b-9c81-c9054c173abe)# ATI_FinalProject
 ATI Email Project_Logistic Regression Spam Filter
 Packages used for this project include:
 
